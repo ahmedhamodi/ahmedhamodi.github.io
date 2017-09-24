@@ -93,7 +93,7 @@
 			// Lightbox gallery.
 				$window.on('load', function() {
 
-					$('#one, #two, #three, #four, #five').poptrox({
+					$('#one, #two, #three, #four, #five, #six').poptrox({
 						caption: function($a) { return $a.next('h3').text(); },
 						overlayColor: '#2c2c2c',
 						overlayOpacity: 0.85,
