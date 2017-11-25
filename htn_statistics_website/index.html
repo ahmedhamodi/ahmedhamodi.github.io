@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<style type="text/css">
+#container { margin-left: auto; margin-right: auto; width:1020px;}
+</style>
+<title>AAA</title>
+</head>
+<body>
+<h1 align="center" style="margin-top:150px; margin-bottom:30px;">Something</h1>
+<div id="container">
+<script>
+  function autoRefresh() {
+    window.location = window.location.href;
+  }
+  setInterval('autoRefresh()', 5000);
+</script>
+</div>
+</body>
+
+
+
+<script>
+columns0 = "temp";
+columns1 = "temp2";
+data = "temp3";
+
+var rawFile = new XMLHttpRequest();
+rawFile.open("GET", "data.csv", true);
+columns0 = String(data);
+
+$.get('C:\\Users\\loyal\\Desktop\\data.csv', function(data) {
+var html = '<table class="table table-bordened">';
+var rows = data.split("\n");
+for (var i = 0; i < 10; i++) {
+  html += "<tr>";
+  var columns = rows[i].split(",");
+  html += "<td>" + columns[0] + "</td>";
+  html += "<td>" + columns[1] + "</td>";
+  columns0 = columns[0];
+  columns1 = columns[1];
+}
+html += "</table>";
+$('#container').append(html);
+});
+</script>
+
+<!-- 
+<script>
+  htmlString = readTextFile("Desktop\\data.csv");
+  alert(htmlString);
+</script>
+ -->
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <div id="chart_div"></div>
+
+  <script>
+
+
+google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawColColors);
+
+
+
+function drawColColors() {
+
+  var data = new google.visualization.DataTable();
+  data.addColumn('string', 'Ip');
+  data.addColumn('number', 'Without treatment');
+
+  data.addRows([
+    [columns0, 3],
+    ['1.1.1.1', 4]
+  ]);
+
+
+
+
+
+
+
+
+
+  var options = {
+    title: 'Number of Missed Packets',
+    colors: ['#9575cd', '#33ac71'],
+    hAxis: {
+      title: 'IP',
+    },
+    vAxis: {
+    title: 'Missed Packages'
+    }
+  };
+  var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+  chart.draw(data, options);
+}
+
+
+</script>
+
+</html>
