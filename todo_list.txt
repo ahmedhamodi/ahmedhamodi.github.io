@@ -1,17 +1,13 @@
 Elements to add onto Hack the North 2017 section:
 
 Generic additions:
-  - talk more about the website, currently hosted on "k4yt3x.com"
-  - talk more about the analytics page, currently hosted on "k4yt3x.com/stats"
   - include picture of the team that worked on the project, not just the home page of the website
   - work on one of the following to get more images displayed per element:
-  - slideshow effect which changes the displayed image every 10(?) seconds
-  - when image is clicked on to expand, add either slideshow effect or a clickable button to cycle through images
+    - slideshow effect which changes the displayed image every 10(?) seconds
+    - when image is clicked on to expand, add either slideshow effect or a clickable button to cycle through images
   - work on a more technical documentation / subdirectory on my website to further eloborate what this project does as a lot of effort went into it
-  - link to devpost that showcases the project (should also add this to JamHacks)
 
 Personal things to do:
-  - create a git hub repository to host the HTN website/analytics page on
   - potentially continue to work on and add features to the website for personal practice
   - continue to work with google's API for graph creation, like used on the stats subdirectory of the website
   - if a github repository is set up, potentially link that site when image is clicked to expand OR add another button / clickable link that brings user to that website
