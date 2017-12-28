@@ -1777,7 +1777,7 @@
 	}
 
 	.active {
-	    background-color: lightgreen;
+	    background-color: #2591AC;
 	    color: black;
 	}
 
@@ -2626,12 +2626,12 @@
 
 			#footer .icons a {
 				/*color: rgba(255, 255, 255, 0.4);*/
-				color: black;
+				color: white;
 			}
 
 		#footer .copyright {
 			/*color: rgba(255, 255, 255, 0.4);*/
-			color: black;
+			color: white;
 			font-size: 0.8em;
 			list-style: none;
 			margin: 1em 0 0 0;
