@@ -1777,8 +1777,8 @@
 	}
 
 	.active {
-	    background-color: #4CAF50;
-	    color: white;
+	    background-color: lightgreen;
+	    color: black;
 	}
 
 	.topnav .icon {
@@ -2575,7 +2575,7 @@
 	#header {
 		background-color: #1f1815;
 		background-attachment: scroll,								fixed;
-		background-image: url("../../images/fulls/bg.jpg");
+		background-image: url("../../images/fulls/bg3.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 100%;
@@ -2625,11 +2625,13 @@
 		}
 
 			#footer .icons a {
-				color: rgba(255, 255, 255, 0.4);
+				/*color: rgba(255, 255, 255, 0.4);*/
+				color: black;
 			}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.4);
+			/*color: rgba(255, 255, 255, 0.4);*/
+			color: black;
 			font-size: 0.8em;
 			list-style: none;
 			margin: 1em 0 0 0;
