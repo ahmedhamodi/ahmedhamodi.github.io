@@ -1608,13 +1608,13 @@
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #2591AC;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #2591AC !important;
 			text-decoration: none;
 		}
 
@@ -2450,8 +2450,8 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #2591AC;
+			color: #2591AC !important;
 		}
 
 		input[type="submit"]:active,
@@ -2459,8 +2459,8 @@
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #2591AC;
+			color: #2591AC !important;
 		}
 
 		input[type="submit"].icon,
@@ -2505,8 +2505,8 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			background-color: #2591AC;
+			border-color: #2591AC;
 			color: #ffffff !important;
 		}
 
@@ -3043,7 +3043,7 @@
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/fulls/bg.jpg");
+				background-image: url("images/overlay.png"), url("../../images/fulls/bg3.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
