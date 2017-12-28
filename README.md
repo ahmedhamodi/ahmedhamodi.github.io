@@ -9,6 +9,6 @@ This site is built using HTML, CSS, and JavaScript (including jQuery). It is des
 
 ## Other Information
 
-Other important information sources include my GitHub account ( https://github.com/ahmedhamodi ) and my LinkedIn ( https://www.linkedin.com/in/ahmedhamodi ) account.
+Other important information sources include my GitHub account( https://github.com/ahmedhamodi ), my LinkedIn account (https://www.linkedin.com/in/ahmedhamodi/ ), and my Devpost account ( https://devpost.com/ahmedhamodi" ).
 
 My website can also be found through a new custom URL ( http://ahmedhamodi.com ).
