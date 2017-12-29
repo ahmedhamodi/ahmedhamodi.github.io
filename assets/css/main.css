@@ -1742,6 +1742,67 @@
 		text-align: right;
 	}
 
+/* Programming Language */
+
+	.language {
+		width: 300px;
+		display:inline-block;
+		margin: auto;
+	}
+
+	.details {
+	  	color: #fff;
+	  	font-size: 14px;
+	  	text-align: left;
+	  	font-weight: 300;
+	  	font-family: 'Open Sans', sans-serif;
+	  	line-height: 30px;
+	}
+
+	.details ul {
+	  	list-style: none;
+	  	padding: 0;
+	}
+
+	.lang-experience {
+	  	display: inline-block;
+	  	margin: 0 7px -3px 0;
+	  	width: 15px;
+	  	height: 15px;
+	  	/*background: url(/img/check.png) no-repeat #77be32;*/
+	}
+
+	.lang-element {
+	  	width: 295px;
+	    height: auto;
+	  	float: left;
+	  	text-align: center;
+	  	position: relative;
+	}
+
+	.lang-title {
+	  	font-family: 'Open Sans', sans-serif;
+	  	color: #000;
+	  	text-align:center;
+	  	font-size: 24px;
+	  	font-weight: 400;
+	  	padding-top: 64px;
+	}
+
+	.lang-icon {
+		background-color:#2591AC;
+	  	cursor: crosshair !important;
+	  	width: 160px;
+	  	height: 160px;
+	  	border-radius: 50%;
+	  	margin: 30px auto 30px;
+	  	transition: all 0.4s ease-in-out;
+	}
+
+	.lang-icon:hover {
+	  	background-color: lightblue !important;
+	}
+
 /* Navigation Bar */
 
 	@media screen and (min-width: 981px) {

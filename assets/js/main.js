@@ -102,7 +102,7 @@ function myFunction() {
 			// Lightbox gallery.
 				$window.on('load', function() {
 
-					$('#intro, #work, #hackathons, #projects, #volunteering, #education').poptrox({
+					$('#intro, #languages, #work, #hackathons, #projects, #volunteering, #education').poptrox({
 						caption: function($a) {
 							return $a.next("center").text();
 						},
