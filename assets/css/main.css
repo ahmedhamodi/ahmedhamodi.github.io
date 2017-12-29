@@ -1745,23 +1745,16 @@
 /* Programming Language */
 
 	.language {
-		width: 300px;
+		width: 33%;
 		display:inline-block;
-		margin: auto;
 	}
 
-	.details {
-	  	color: #fff;
-	  	font-size: 14px;
-	  	text-align: left;
-	  	font-weight: 300;
-	  	font-family: 'Open Sans', sans-serif;
-	  	line-height: 30px;
-	}
+	@media screen and (max-width: 800px) {
 
-	.details ul {
-	  	list-style: none;
-	  	padding: 0;
+		.language {
+			width: 200px;
+		}
+
 	}
 
 	.lang-experience {
@@ -1772,31 +1765,21 @@
 	  	/*background: url(/img/check.png) no-repeat #77be32;*/
 	}
 
-	.lang-element {
-	  	width: 295px;
-	    height: auto;
-	  	float: left;
-	  	text-align: center;
-	  	position: relative;
-	}
-
 	.lang-title {
-	  	font-family: 'Open Sans', sans-serif;
-	  	color: #000;
-	  	text-align:center;
-	  	font-size: 24px;
+	  	color: #ffffff;
+	  	text-align: center;
+	  	font-size: 28px;
 	  	font-weight: 400;
 	  	padding-top: 64px;
 	}
 
 	.lang-icon {
-		background-color:#2591AC;
-	  	cursor: crosshair !important;
+		background-color: #2591AC;
 	  	width: 160px;
 	  	height: 160px;
 	  	border-radius: 50%;
 	  	margin: 30px auto 30px;
-	  	transition: all 0.4s ease-in-out;
+	  	transition: all 0.6s ease-in-out;
 	}
 
 	.lang-icon:hover {
