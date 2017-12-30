@@ -2582,11 +2582,11 @@
 	}
 
 		.work-item .image {
-			margin: 0 0 1.5em 0;
+			margin: 0 0 1.6em 0;
 		}
 
 		.work-item h3 {
-			font-size: 1.1em;
+			font-size: 1.3em;
 			margin: 0 0 0.5em 0;
 		}
 
@@ -2596,14 +2596,14 @@
 		}
 
 		.work-item p {
-			font-size: 0.85em;
-			line-height: 1.5em;
+			font-size: 1em;
+			line-height: 1.3em;
 			margin: 0;
 		}
 
 		.work-item li {
-			font-size: 0.85em;
-			line-height: 1.5em;
+			font-size: 1em;
+			line-height: 1.3em;
 		}
 
 /* Header */
