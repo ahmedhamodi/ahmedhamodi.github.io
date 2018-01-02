@@ -27,6 +27,21 @@ function myFunction() {
 		xsmall: '(max-width: 480px)'
 	});
 
+	$('a[href*=#]').click(function() {
+    	var $target = $(this.hash);
+    	if ($target.length) {
+      		var targetOffset = $target.offset().top - 50;
+      		$('html, body').animate({scrollTop: targetOffset}, 1000).promise().done(function() {
+        		if (history.pushState) {
+          			history.pushState(null, null, $target.selector);
+        		} else {
+          			location.hash = $target.selector;
+        		}
+      		});
+      	return false;
+    	}
+  	});
+
 	$(function() {
 
 		var $window = $(window),
