@@ -1780,15 +1780,6 @@
 
 /* Navigation Bar */
 
-	@media screen and (min-width: 981px) {
-		.topnav {
-			position: fixed;
-			z-index: 99;
-			margin-left: 25%;
-			width: 80%;
-		}
-	}
-
 	.topnav {
 		width: 100%;
 		/*position: absolute;*/
@@ -1819,6 +1810,27 @@
 
 	.topnav .icon {
 	    display: none;
+	}
+
+	@media screen and (min-width: 737px) {
+		.topnav a {
+			padding: 14px 14px;
+			font-size:17px;
+		}
+	}
+
+	@media screen and (min-width: 981px) {
+		.topnav {
+			position: fixed;
+			z-index: 99;
+			margin-left: 25%;
+			width: 80%;
+		}
+
+		.topnav a {
+		    padding: 15px 17px;
+		    font-size: 18px;
+		}
 	}
 
 /* Section/Article */
