@@ -1746,6 +1746,8 @@
 
 	.language {
 		width: 33%;
+		padding-left: 20px;
+		padding-right: 20px;
 		display:inline-block;
 	}
 
@@ -1753,6 +1755,18 @@
 
 		.language {
 			width: 200px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+	}
+
+	@media screen and (min-width: 980px) {
+
+		.language {
+			width: 33%;
+			padding-left: 15px;
+			padding-right: 15px;
 		}
 
 	}
@@ -1762,15 +1776,14 @@
 	  	text-align: center;
 	  	font-size: 28px;
 	  	font-weight: 400;
-	  	padding-top: 64px;
+	  	padding-top: 26px;
 	}
 
 	.lang-icon {
-		background-color: #2591AC;
-	  	width: 160px;
-	  	height: 160px;
-	  	border-radius: 50%;
-	  	margin: 30px auto 30px;
+		background-color: #24A4C4;
+	  	height: 80px;
+	  	border-radius: 30%;
+	  	margin: 10px auto 10px;
 	  	transition: all 0.3s linear;
 	}
 
