@@ -1613,7 +1613,7 @@
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			/*border-bottom-color: transparent;*/
 			color: #2591AC !important;
 			text-decoration: none;
 		}
@@ -1761,7 +1761,7 @@
 
 	}
 
-	@media screen and (min-width: 980px) {
+	@media screen and (max-width: 1280px, min-width: 800px) {
 
 		.language {
 			width: 33%;
@@ -1771,10 +1771,20 @@
 
 	}
 
+	@media screen and (min-width: 1280px) {
+
+		.language {
+			width: 280px;
+			padding-left: 25px;
+			padding-right: 25px;
+		}
+
+	}
+
 	.lang-title {
 	  	color: #ffffff;
 	  	text-align: center;
-	  	font-size: 28px;
+	  	font-size: 20px;
 	  	font-weight: 400;
 	  	padding-top: 26px;
 	}
@@ -1782,7 +1792,7 @@
 	.lang-icon {
 		background-color: #24A4C4;
 	  	height: 80px;
-	  	border-radius: 30%;
+	  	border-radius: 100%;
 	  	margin: 10px auto 10px;
 	  	transition: all 0.3s linear;
 	}
@@ -2121,7 +2131,7 @@
 
 	.image {
 		border-radius: 0.35em;
-		border: 0;
+		border: solid 3px #80C1E1;
 		display: inline-block;
 		position: relative;
 	}
@@ -2132,7 +2142,7 @@
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			background: url("images/overlay.png");
-			border-radius: 0.35em;
+			border-radius: 0.2em;
 			content: '';
 			display: block;
 			height: 100%;
@@ -2181,7 +2191,7 @@
 			}
 
 		.image img {
-			border-radius: 0.35em;
+			border-radius: 0.2em;
 			display: block;
 		}
 
@@ -2492,7 +2502,7 @@
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		border: solid 3px #80C1E1;
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
