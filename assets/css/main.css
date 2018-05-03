@@ -2153,6 +2153,10 @@
 			width: 100%;
 		}
 
+		.image:hover {
+			border-color: #2591AC;
+		}
+
 		.image.thumb {
 			text-align: center;
 		}
