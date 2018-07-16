@@ -1,3 +1,0 @@
-1. More information with the programming languages
-2. Emailing form (look into JavaScript solution)
-3. Look into other ways of displaying content (look into animations)
