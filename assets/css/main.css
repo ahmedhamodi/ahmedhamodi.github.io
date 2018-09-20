@@ -2131,7 +2131,6 @@
 
 	.image {
 		border-radius: 0.35em;
-		border: solid 3px #80C1E1;
 		display: inline-block;
 		position: relative;
 	}
@@ -2151,10 +2150,6 @@
 			position: absolute;
 			top: 0;
 			width: 100%;
-		}
-
-		.image:hover {
-			border-color: #2591AC;
 		}
 
 		.image.thumb {
