@@ -302,7 +302,7 @@ p a, p a:visited { line-height: inherit; }
 /*  4. List  --------------------------------------------------------- */
 
 ul, ol { margin-bottom: 24px; margin-top: 12px; }
-ul { list-style: none outside; }
+ul { margin-left: 20px; }
 ol { list-style: decimal; }
 ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
 ul.square { list-style: square outside; }
