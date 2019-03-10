@@ -49,10 +49,17 @@
 
    /* About Section
    ------------------------------------------------------------------- */
+   .row .three {
+      width: 100%;
+   }
+   .row .nine {
+      width: 100%;
+   }
+
    #about .profile-pic {
-      width: 114px;
-      height: 114px;
-      margin-left: 12px;
+      margin: auto;
+      margin-bottom: 30px;
+      display: block;
    }
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
@@ -215,7 +222,9 @@
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   #about .profile-pic {
+      margin-bottom: 50px;
+   }
    #about .download .button {
       width: 100%;
       text-align: center;
