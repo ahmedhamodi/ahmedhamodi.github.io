@@ -705,6 +705,10 @@ properly.
 --------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
 
+   .column, .columns {
+      min-height: 80px;
+   }
+
    /* block grids on small screens */
    .s-bgrid-sixths [class*="column"]   { width: 16.66667%; }
    .s-bgrid-quarters [class*="column"] { width: 25%; }
@@ -726,13 +730,16 @@ properly.
 	   margin: 0 auto;
       padding: 0;
 	}
+
    .column, .columns {
 	   width: auto !important;
 	   float: none;
 	   margin-left: 0;
 	   margin-right: 0;
       padding: 0 30px;
+      min-height: 0px;
    }
+
    .row .row { width: auto; max-width: none; margin: 0 -30px; }
 
    [class*="column"] + [class*="column"]:last-child { float: none; }
