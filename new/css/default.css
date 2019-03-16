@@ -617,7 +617,7 @@ input[type="checkbox"] { display: inline; }
 .column, .columns {
    position: relative;
    padding: 0 20px;
-   min-height: 180px;
+   min-height: 100px;
    float: left;
 }
 
