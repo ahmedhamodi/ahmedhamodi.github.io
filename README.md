@@ -15,6 +15,6 @@ This site is built using HTML, CSS, and JavaScript (including jQuery). It is des
 
 Other important information sources include my GitHub account (https://github.com/ahmedhamodi), my LinkedIn account (https://www.linkedin.com/in/ahmedhamodi), and my Devpost account (https://devpost.com/ahmedhamodi).
 
-My website can also be found at ahmedhamodi.com.
+My website can also be found at http://ahmedhamodi.com.
 
 Any inquiries, please email me at ahmed.r.hamodi@gmail.com!
