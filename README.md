@@ -1,17 +1,20 @@
-## Website Description
-
-Check out my website to learn more about my work experiences, projects, extra curricular activities, hackathons, and volunteer experiences.
+# Personal Portfolio
 
 
-## Software
+## What to Expect?
+
+Check out my website to learn more about my work experiences, projects, extra curricular activities, and hackathons.
+
+
+## Tech Stack
 
 This site is built using HTML, CSS, and JavaScript (including jQuery). It is designed to be fully responsive on all devices including: mobile phones, tablets, and monitors.
 
 
-## Other Information
+## Other Info
 
-Other important information sources include my GitHub account(https://github.com/ahmedhamodi), my LinkedIn account (https://www.linkedin.com/in/ahmedhamodi/), and my Devpost account (https://devpost.com/ahmedhamodi").
+Other important information sources include my GitHub account (https://github.com/ahmedhamodi), my LinkedIn account (https://www.linkedin.com/in/ahmedhamodi), and my Devpost account (https://devpost.com/ahmedhamodi).
 
-My website can also be found through a new custom URL (http://ahmedhamodi.com).
+My website can also be found at ahmedhamodi.com.
 
 Any inquiries, please email me at ahmed.r.hamodi@gmail.com!
