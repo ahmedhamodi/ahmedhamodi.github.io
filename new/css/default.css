@@ -449,7 +449,7 @@ dd { margin: 0 0 0 20px; }
 /*  5. Images  --------------------------------------------------------- */
 
 img {
-   max-width: 100%;
+   width: 100%;
    height: auto;
 }
 img.pull-right { margin: 12px 0px 0px 18px; }
