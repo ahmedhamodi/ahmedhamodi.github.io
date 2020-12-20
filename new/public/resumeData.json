@@ -39,19 +39,19 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Below is a quick summary of my technology skills, split into subcategories.",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"University of Waterloo",
+        "degree":"Candidate for Bachelor of Software Engineering",
+        "graduated":"SEP 2017 - APR 2022",
+        "description":"Elected as Academic Class Rep for every term. Cumulative GPA of 84%. Play in intramural sports including soccer, basketball & volleyball."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Bluevale Collegiate Institute",
+        "degree":"Ontario Scholar",
+        "graduated":"SEP 2013 - JUN 2017",
+        "description":"98% grade 12 average. Cumulative average of 96%. Leader of Electric Car Club, Fed Prov, and the peer tutoring group."
       }
     ],
     "work":[
