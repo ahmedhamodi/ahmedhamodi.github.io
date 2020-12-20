@@ -84,31 +84,31 @@
       {
         "title":"Project #1",
         "category":"Info about project #1",
-        "image":"",
+        "image":"coding.jpg",
         "url":""
       },
       {
         "title":"Project #2",
         "category":"Info about project #2",
-        "image":"",
+        "image":"ecar.jpg",
         "url":""
       },
       {
         "title":"Project #3",
         "category":"Info about project #3",
-        "image":"",
+        "image":"arbitrium.jpg",
         "url":""
       },
       {
         "title":"Project #4",
         "category":"Info about project #4",
-        "image":"",
+        "image":"maxaspire.jpg",
         "url":""
       },
       {
         "title":"Project #5",
         "category":"Info about project #5",
-        "image":"",
+        "image":"onemax.jpg",
         "url":""
       }
     ]

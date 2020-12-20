@@ -3,6 +3,7 @@ import { css } from "emotion";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import { Swipeable } from "react-swipeable";
+import Projects from "./Projects.js";
 
 const useStyles = makeStyles((theme) => ({
   rightArrow: {
@@ -90,14 +91,9 @@ class Quote extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      current: {
-        title: "Loading...",
-        category: "Project section is loading.",
-        image: "",
-        url: "",
-      },
+      current: Projects[0],
       active: 0,
-      numQuotes: 4,
+      numQuotes: Projects.length,
     };
   }
 
@@ -115,13 +111,13 @@ class Quote extends Component {
   }
 
   HandleRightArrowClick = (event) => {
-    if (this.state.active < 6) {
+    if (this.state.active < this.state.numQuotes - 1) {
       this.setState({
-        current: this.props.data.projects[parseInt(this.state.active) + 1],
+        current: Projects[parseInt(this.state.active) + 1],
         active: parseInt(this.state.active) + 1,
       });
-    } else if (this.state.active === 6) {
-      this.setState({ current: this.props.data.projects[0], active: 0 });
+    } else if (this.state.active === this.state.numQuotes - 1) {
+      this.setState({ current: Projects[0], active: 0 });
     }
     this.timer();
   };
@@ -129,12 +125,12 @@ class Quote extends Component {
   HandleLeftArrowClick = (event) => {
     if (this.state.active > 0) {
       this.setState({
-        current: this.props.data.projects[this.state.active - 1],
+        current: Projects[this.state.active - 1],
         active: this.state.active - 1,
       });
     } else if (this.state.active === 0) {
       this.setState({
-        current: this.props.data.projects[this.state.numQuotes - 1],
+        current: Projects[this.state.numQuotes - 1],
         active: this.state.numQuotes - 1,
       });
     }
@@ -144,19 +140,13 @@ class Quote extends Component {
   HandleSetClick = (event) => {
     this.setState({
       active: event.target.getAttribute("data-image"),
-      current: this.props.data.projects[
-        event.target.getAttribute("data-image")
-      ],
+      current: Projects[event.target.getAttribute("data-image")],
     });
     this.timer();
   };
 
   render() {
     const classes = this.props.classes;
-
-    if (this.props.data) {
-      var current = this.props.data.projects[this.state.active];
-    }
 
     return (
       <Swipeable
@@ -165,7 +155,7 @@ class Quote extends Component {
       >
         <div className={classes.carousal}>
           <h1 className={classes.header}>
-            <b>What our members have to say</b>
+            <b>Check out some of my projects!</b>
           </h1>
           <Grid
             container
@@ -200,7 +190,13 @@ class Quote extends Component {
               alignItems="center"
               justify="center"
             >
-              <p>test</p>
+              <p className={classes.picture}>
+                <img
+                  className={classes.image}
+                  src={this.state.current.image}
+                  alt={this.state.current.title}
+                />
+              </p>
             </Grid>
             <Grid
               container
@@ -278,15 +274,13 @@ class Quote extends Component {
               }
             `}
           >
-            {Object.keys(this.props.data ? this.props.data.projects : []).map(
-              (index) => (
-                <span
-                  onClick={this.HandleSetClick}
-                  data-image={index}
-                  key={index}
-                />
-              )
-            )}
+            {Object.keys(Projects).map((index) => (
+              <span
+                onClick={this.HandleSetClick}
+                data-image={index}
+                key={index}
+              />
+            ))}
           </div>
         </div>
       </Swipeable>
