@@ -155,7 +155,7 @@ class Carousal extends Component {
       >
         <div className={classes.carousal}>
           <h1 className={classes.header}>
-            <b>Check out some of my projects!</b>
+            <b>Check out some of my other projects!</b>
           </h1>
           <Grid
             container
@@ -267,10 +267,10 @@ class Carousal extends Component {
                 transition: background-color 0.3s ease;
               }
               span:hover::before {
-                background-color: rgb(197, 179, 88);
+                background-color: #11abb0;
               }
               span[data-image="${this.state.active}"]::before {
-                background-color: rgb(197, 179, 88);
+                background-color: #11abb0;
               }
             `}
           >
