@@ -87,7 +87,7 @@ function withMyHook(Component) {
   };
 }
 
-class Quote extends Component {
+class Carousal extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -224,8 +224,8 @@ class Quote extends Component {
               spacing={1}
               justify="center"
             >
-              <p className={classes.title}>test</p>
-              <p className={classes.paragraph}>test</p>
+              <p className={classes.title}>{this.state.current.title}</p>
+              <p className={classes.paragraph}>{this.state.current.category}</p>
             </Grid>
             <Grid
               container
@@ -288,5 +288,5 @@ class Quote extends Component {
   }
 }
 
-Quote = withMyHook(Quote);
-export default Quote;
+Carousal = withMyHook(Carousal);
+export default Carousal;

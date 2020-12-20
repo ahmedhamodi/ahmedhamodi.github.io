@@ -7,7 +7,7 @@ class About extends Component {
       var profilepic = "images/" + this.props.data.image;
       var bio = this.props.data.bio;
       var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
+      var linkedInUrl = this.props.data.linkedinurl;
     }
 
     return (
@@ -35,8 +35,8 @@ class About extends Component {
               </div>
               <div className="columns download">
                 <p>
-                  <a href={resumeDownload} className="button">
-                    <i className="fa fa-download"></i>Download Resume
+                  <a href={linkedInUrl} target="_blank" className="button">
+                    <i className="fa fa-download"></i>Find Me on LinkedIn
                   </a>
                 </p>
               </div>

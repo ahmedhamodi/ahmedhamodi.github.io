@@ -3,13 +3,13 @@
     "name":"Ahmed Hamodi",
     "description":"I am a web development engineer and I use react and python to develop pages. This project is a resume template that can be used as the project home page or resume page",
     "image":"profilepic.png",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"I am a young aspiring Software Engineer, with experience in full-stack development, machine learning, scripting, and automation. I am motivated by my passion for learning new technologies and perfecting my craft. I will never shy away from a challenge and I will always approach tasks with a positive attitude and a willingness to colloborate, explain, and take criticism to continue to improve.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "ahmed.r.hamodie@gmail.com",
     "github":"https://github.com/ahmedhamodi",
     "project":"https://github.com/ahmedhamodi/ahmedhamodi.github.io",
     "website": "https://ahmedhamodi.com/",
-    "resumedownload": "",
+    "linkedinurl": "https://www.linkedin.com/in/ahmedhamodi/",
     "social":[
       {
         "name":"facebook",
