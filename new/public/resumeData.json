@@ -56,16 +56,40 @@
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Facebook",
+        "title":"Incoming Software Engineering Intern",
+        "years":"JAN 2021 - APR 2021",
+        "description":"Working on the Stores team, developing with React and PHP (Hack)."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Tealbook",
+        "title":"Software Engineering Intern",
+        "years":"MAY 2020 - AUG 2020",
+        "description":"Worked on the application development team, working with React and Node.js."
+      },
+      {
+        "company":"JSI Telecom",
+        "title":"Software Engineering Intern",
+        "years":"SEP 2019 - DEC 2019",
+        "description":"Worked on the data loaders team, working with C# and .NET Core."
+      },
+      {
+        "company":"Condos.ca",
+        "title":"Full Stack Engineering Intern",
+        "years":"JAN 2019 - APR 2019",
+        "description":"Worked on the backend development team, working with PHP (Laravel framework)."
+      },
+      {
+        "company":"OpenText",
+        "title":"Software Engineering Intern",
+        "years":"MAY 2018 - AUG 2018",
+        "description":"Worked on the backend development team, working with PHP (Laravel framework)."
+      },
+      {
+        "company":"FLIR Systems",
+        "title":"Operations Engineering Intern",
+        "years":"JUN 2017 - SEP 2017",
+        "description":"Worked on the test automation team, working with Python and Bash."
       }
     ],
     "skills":[
