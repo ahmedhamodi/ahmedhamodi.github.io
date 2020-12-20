@@ -12,29 +12,24 @@
     "linkedinurl": "https://www.linkedin.com/in/ahmedhamodi/",
     "social":[
       {
-        "name":"facebook",
-        "url":"",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"linkedin",
-        "url":"",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"",
-        "className":"fa fa-instagram"
+        "name":"email",
+        "url":"mailto:ahmed.r.hamodi@gmail.com",
+        "className":"fa fa-envelope fa-2x mb-3"
       },
       {
         "name":"github",
-        "url":"",
-        "className":"fa fa-github"
+        "url":"https://github.com/ahmedhamodi",
+        "className":"fa fa-github fa-2x mb-3"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/ahmedhamodi",
+        "className":"fa fa-linkedin fa-2x mb-3"
+      },
+      {
+        "name":"devpost",
+        "url":"https://devpost.com/ahmedhamodi",
+        "className":"fa fa-code fa-2x mb-3"
       }
     ]
   },
