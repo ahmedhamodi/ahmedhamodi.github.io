@@ -37,22 +37,6 @@ class Resume extends Component {
           </div>
         );
       });
-
-      var skills = this.props.data.skills.map((skills) => {
-        var className = "bar-expand " + skills.name.toLowerCase();
-        return (
-          <li key={skills.name}>
-            <span
-              style={{
-                width: skills.level,
-                backgroundColor: this.getRandomColor(),
-              }}
-              className={className}
-            ></span>
-            <em>{skills.name}</em>
-          </li>
-        );
-      });
     }
 
     return (
@@ -68,32 +52,34 @@ class Resume extends Component {
             <p>{skillmessage}</p>
 
             <table style={{ width: "100%", borderWidth: "thick" }}>
-              <tr>
-                <th style={{ textAlign: "left", minWidth: "120px" }}>
-                  <b>Languages</b>
-                </th>
-                <td colspan="3">
-                  Python, Javascript, PHP, C++, C#, C, Java, PostgreSQL, MySQL,
-                  Bash
-                </td>
-              </tr>
-              <tr>
-                <th style={{ textAlign: "left", minWidth: "120px" }}>
-                  <b>Frameworks</b>
-                </th>
-                <td colspan="3">
-                  React, Node.js, AWS, Laravel, .NET Core, TensorFlow, Keras
-                </td>
-              </tr>
-              <tr>
-                <th style={{ textAlign: "left", minWidth: "120px" }}>
-                  <b>Utilities</b>
-                </th>
-                <td colspan="3">
-                  Git, Firebase, Docker, Heroku, Jenkins, Arduino, Google
-                  Analytics, JIRA
-                </td>
-              </tr>
+              <tbody>
+                <tr>
+                  <th style={{ textAlign: "left", minWidth: "120px" }}>
+                    <b>Languages</b>
+                  </th>
+                  <td colSpan="3">
+                    Python, Javascript, PHP, C++, C#, C, Java, PostgreSQL,
+                    MySQL, Bash
+                  </td>
+                </tr>
+                <tr>
+                  <th style={{ textAlign: "left", minWidth: "120px" }}>
+                    <b>Frameworks</b>
+                  </th>
+                  <td colSpan="3">
+                    React, Node.js, AWS, Laravel, .NET Core, TensorFlow, Keras
+                  </td>
+                </tr>
+                <tr>
+                  <th style={{ textAlign: "left", minWidth: "120px" }}>
+                    <b>Utilities</b>
+                  </th>
+                  <td colSpan="3">
+                    Git, Firebase, Docker, Heroku, Jenkins, Arduino, Google
+                    Analytics, JIRA
+                  </td>
+                </tr>
+              </tbody>
             </table>
           </div>
         </div>

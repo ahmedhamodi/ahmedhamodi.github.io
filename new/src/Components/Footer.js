@@ -6,7 +6,7 @@ class Footer extends Component {
       var networks = this.props.data.social.map(function (network) {
         return (
           <li key={network.name}>
-            <a href={network.url} target="_blank">
+            <a href={network.url} target="_blank" rel="noopener noreferrer">
               <i className={network.className} style={{ color: "white" }}></i>
             </a>
           </li>
@@ -46,7 +46,7 @@ class Footer extends Component {
               }}
             ></hr>
             <ul className="social-links">{networks}</ul>
-            <ul class="copyright">
+            <ul className="copyright">
               <li style={{ color: "white" }}>
                 Copyright &copy;
                 {" " + new Date().getFullYear()}

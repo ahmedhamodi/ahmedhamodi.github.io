@@ -35,7 +35,12 @@ class About extends Component {
               </div>
               <div className="columns download">
                 <p>
-                  <a href={linkedInUrl} target="_blank" className="button">
+                  <a
+                    href={linkedInUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="button"
+                  >
                     <i className="fa fa-download"></i>Find Me on LinkedIn
                   </a>
                 </p>
