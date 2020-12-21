@@ -1,6 +1,6 @@
 {
   "name": "ahmedhamodi.github.io",
-  "homepage": "http://ahmedhamodi.github.io/ahmedhamodi.github.io",
+  "homepage": "https://ahmedhamodi.com/",
   "version": "0.1.0",
   "private": true,
   "husky": {
@@ -61,7 +61,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "echo \"ahmedhamodi.com\" > build/CNAME && gh-pages -d build",
     "dev": "react-scripts start",
     "start": "cd build",
     "build": "react-scripts build",
