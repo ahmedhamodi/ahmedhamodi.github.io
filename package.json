@@ -1,5 +1,6 @@
 {
   "name": "ahmedhamodi.github.io",
+  "homepage": "http://ahmedhamodi.github.io/ahmedhamodi.github.io",
   "version": "0.1.0",
   "private": true,
   "husky": {
@@ -88,6 +89,7 @@
     "body-parser": "^1.19.0",
     "concurrently": "^5.3.0",
     "express": "^4.17.1",
+    "gh-pages": "^3.1.0",
     "prop-types": "^15.7.2"
   }
 }
