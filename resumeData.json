@@ -1,0 +1,135 @@
+{
+  "main": {
+    "name":"Ahmed Hamodi",
+    "description":"I am a web development engineer and I use react and python to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "image":"profilepic.png",
+    "bio":"I am a young aspiring Software Engineer, with experience in full-stack development, machine learning, scripting, and automation. I am motivated by my passion for learning new technologies and perfecting my craft. I will never shy away from a challenge and I will always approach tasks with a positive attitude and a willingness to colloborate, explain, and take criticism to continue to improve.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "ahmed.r.hamodi@gmail.com",
+    "github":"https://github.com/ahmedhamodi",
+    "project":"https://github.com/ahmedhamodi/ahmedhamodi.github.io",
+    "website": "https://ahmedhamodi.com/",
+    "linkedinurl": "https://www.linkedin.com/in/ahmedhamodi/",
+    "social":[
+      {
+        "name":"email",
+        "url":"mailto:ahmed.r.hamodi@gmail.com",
+        "className":"fa fa-envelope fa-2x mb-3"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/ahmedhamodi",
+        "className":"fa fa-github fa-2x mb-3"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/ahmedhamodi",
+        "className":"fa fa-linkedin fa-2x mb-3"
+      },
+      {
+        "name":"devpost",
+        "url":"https://devpost.com/ahmedhamodi",
+        "className":"fa fa-code fa-2x mb-3"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Below is a quick summary of my technology skills, split into subcategories.",
+    "education":[
+      {
+        "school":"University of Waterloo",
+        "degree":"Candidate for Bachelor of Software Engineering",
+        "graduated":"SEP 2017 - APR 2022",
+        "description":"Elected as Academic Class Rep for every term. Cumulative GPA of 84%. Play in intramural sports including soccer, basketball & volleyball."
+      },
+      {
+        "school":"Bluevale Collegiate Institute",
+        "degree":"Ontario Scholar",
+        "graduated":"SEP 2013 - JUN 2017",
+        "description":"98% grade 12 average. Cumulative average of 96%. Leader of Electric Car Club, Fed Prov, and the peer tutoring group."
+      }
+    ],
+    "work":[
+      {
+        "company":"Facebook",
+        "title":"Incoming Software Engineering Intern",
+        "years":"JAN 2021 - APR 2021",
+        "description":"Working on the Stores team, developing with React and PHP (Hack)."
+      },
+      {
+        "company":"Tealbook",
+        "title":"Software Engineering Intern",
+        "years":"MAY 2020 - AUG 2020",
+        "description":"Worked on the application development team, working with React and Node.js."
+      },
+      {
+        "company":"JSI Telecom",
+        "title":"Software Engineering Intern",
+        "years":"SEP 2019 - DEC 2019",
+        "description":"Worked on the data loaders team, working with C# and .NET Core."
+      },
+      {
+        "company":"Condos.ca",
+        "title":"Full Stack Engineering Intern",
+        "years":"JAN 2019 - APR 2019",
+        "description":"Worked on the backend development team, working with PHP (Laravel framework)."
+      },
+      {
+        "company":"OpenText",
+        "title":"Software Engineering Intern",
+        "years":"MAY 2018 - AUG 2018",
+        "description":"Worked on the backend development team, working with PHP (Laravel framework)."
+      },
+      {
+        "company":"FLIR Systems",
+        "title":"Operations Engineering Intern",
+        "years":"JUN 2017 - SEP 2017",
+        "description":"Worked on the test automation team, working with Python and Bash."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"60%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Project #1",
+        "category":"Info about project #1",
+        "image":"coding.jpg",
+        "url":""
+      },
+      {
+        "title":"Project #2",
+        "category":"Info about project #2",
+        "image":"ecar.jpg",
+        "url":""
+      },
+      {
+        "title":"Project #3",
+        "category":"Info about project #3",
+        "image":"arbitrium.jpg",
+        "url":""
+      },
+      {
+        "title":"Project #4",
+        "category":"Info about project #4",
+        "image":"maxaspire.jpg",
+        "url":""
+      },
+      {
+        "title":"Project #5",
+        "category":"Info about project #5",
+        "image":"onemax.jpg",
+        "url":""
+      }
+    ]
+  }
+}
