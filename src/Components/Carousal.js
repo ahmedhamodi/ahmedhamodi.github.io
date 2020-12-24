@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     paddingTop: "4%",
     paddingBottom: "8%",
-    backgroundColor: "#f1f1f1",
+    backgroundColor: "white",
   },
   paragraph: {
     margin: "auto",
@@ -101,11 +101,11 @@ class Carousal extends Component {
 
   timer() {
     clearInterval(this.interval);
-    this.interval = setInterval(() => this.HandleRightArrowClick(), 3000);
+    this.interval = setInterval(() => this.HandleRightArrowClick(), 8000);
   }
 
   componentDidMount() {
-    this.interval = setInterval(() => this.HandleRightArrowClick(), 3000);
+    this.interval = setInterval(() => this.HandleRightArrowClick(), 8000);
   }
 
   componentWillUnmount() {
