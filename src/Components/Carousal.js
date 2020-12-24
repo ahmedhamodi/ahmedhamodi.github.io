@@ -101,11 +101,11 @@ class Carousal extends Component {
 
   timer() {
     clearInterval(this.interval);
-    this.interval = setInterval(() => this.HandleRightArrowClick(), 3000);
+    this.interval = setInterval(() => this.HandleRightArrowClick(), 8000);
   }
 
   componentDidMount() {
-    this.interval = setInterval(() => this.HandleRightArrowClick(), 3000);
+    this.interval = setInterval(() => this.HandleRightArrowClick(), 8000);
   }
 
   componentWillUnmount() {
