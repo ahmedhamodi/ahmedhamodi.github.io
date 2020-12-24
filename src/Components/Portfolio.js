@@ -3,7 +3,7 @@ import Projects from "./SpotlightProjects.js";
 
 class Portfolio extends Component {
   render() {
-    if (this.props.data) {
+    if (Projects[0]) {
       var projects = Projects.map(function (projects) {
         var projectImage = projects.image;
 

@@ -1,10 +1,10 @@
 {
   "main": {
     "name":"Ahmed Hamodi",
-    "description":"I am a web development engineer and I use react and python to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "description":"I am a Software Engineering student at the University of Waterloo, and I work as a software engineering intern at a variety of companies. My main tech stack revolves around React and Python!",
     "image":"profilepic.png",
     "bio":"I am a young aspiring Software Engineer, with experience in full-stack development, machine learning, scripting, and automation. I am motivated by my passion for learning new technologies and perfecting my craft. I will never shy away from a challenge and I will always approach tasks with a positive attitude and a willingness to colloborate, explain, and take criticism to continue to improve.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"To get in contact with me, reach out on LinkedIn or via email!",
     "email": "ahmed.r.hamodi@gmail.com",
     "github":"https://github.com/ahmedhamodi",
     "project":"https://github.com/ahmedhamodi/ahmedhamodi.github.io",
@@ -85,50 +85,6 @@
         "title":"Operations Engineering Intern",
         "years":"JUN 2017 - SEP 2017",
         "description":"Worked on the test automation team, working with Python and Bash."
-      }
-    ],
-    "skills":[
-      {
-        "name":"Python",
-        "level":"60%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      }
-    ]
-  },
-  "portfolio":{
-    "projects": [
-      {
-        "title":"Project #1",
-        "category":"Info about project #1",
-        "image":"coding.jpg",
-        "url":""
-      },
-      {
-        "title":"Project #2",
-        "category":"Info about project #2",
-        "image":"ecar.jpg",
-        "url":""
-      },
-      {
-        "title":"Project #3",
-        "category":"Info about project #3",
-        "image":"arbitrium.jpg",
-        "url":""
-      },
-      {
-        "title":"Project #4",
-        "category":"Info about project #4",
-        "image":"maxaspire.jpg",
-        "url":""
-      },
-      {
-        "title":"Project #5",
-        "category":"Info about project #5",
-        "image":"onemax.jpg",
-        "url":""
       }
     ]
   }
