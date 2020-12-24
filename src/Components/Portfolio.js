@@ -3,33 +3,6 @@ import Projects from "./SpotlightProjects.js";
 
 class Portfolio extends Component {
   render() {
-    if (Projects[0]) {
-      var projects = Projects.map(function (projects) {
-        var projectImage = projects.image;
-
-        return (
-          <div key={projects.title} className="columns portfolio-item">
-            <div className="item-wrap">
-              <a
-                href={projects.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                title={projects.title}
-              >
-                <img alt={projects.title} src={projectImage} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>{projects.title}</h5>
-                    <p>{projects.category}</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        );
-      });
-    }
-
     return (
       <section id="portfolio">
         <div className="row">
@@ -40,7 +13,26 @@ class Portfolio extends Component {
               id="portfolio-wrapper"
               className="bgrid-thirds s-bgrid-thirds cf"
             >
-              {projects}
+              {Projects.map((projects) => (
+                <div key={projects.title} className="columns portfolio-item">
+                  <a
+                    href={projects.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title={projects.title}
+                  >
+                    <div className="item-wrap">
+                      <img alt={projects.title} src={projects.image} />
+                      <div className="overlay">
+                        <div className="portfolio-item-meta">
+                          <h5>{projects.title}</h5>
+                          <p>{projects.category}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              ))}
             </div>
           </div>
         </div>
