@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     paddingTop: "4%",
     paddingBottom: "8%",
-    backgroundColor: "#f1f1f1",
+    backgroundColor: "white",
   },
   paragraph: {
     margin: "auto",
