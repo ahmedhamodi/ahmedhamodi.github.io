@@ -54,6 +54,7 @@ class Header extends Component {
               <a
                 href={linkedin}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="button btn project-btn"
               >
                 <i className="fa fa-linkedin"></i>LinkedIn
@@ -61,6 +62,7 @@ class Header extends Component {
               <a
                 href={github}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="button btn github-btn"
               >
                 <i className="fa fa-github"></i>Github
