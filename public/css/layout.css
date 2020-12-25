@@ -192,7 +192,8 @@ ul#nav li a:active {
   background-color: transparent !important;
 }
 ul#nav li.current a {
-  color: #11abb0;
+  background-color: #11abb0;
+  color: black;
 }
 
 /* ------------------------------------------------------------------ */
