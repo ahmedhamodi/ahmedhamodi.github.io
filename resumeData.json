@@ -59,8 +59,11 @@
       {
         "company":"Tealbook",
         "title":"Software Engineering Intern",
+        "title2":"Technical Sales Support Specialist",
         "years":"MAY 2020 - AUG 2020",
-        "description":"Worked on the application development team, working with React and Node.js."
+        "years2":"NOV 2020 - DEC 2020",
+        "description":"Worked on the application development team, working with React and Node.js.",
+        "description2":"Created a security assessment dataset saving hours of human time."
       },
       {
         "company":"JSI Telecom",
