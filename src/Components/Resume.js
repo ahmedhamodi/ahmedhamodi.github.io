@@ -29,11 +29,22 @@ class Resume extends Component {
         return (
           <div key={work.company}>
             <h3>{work.company}</h3>
-            <p className="info">
-              {work.title}
-              <span>&bull;</span> <em className="date">{work.years}</em>
-            </p>
+            <div>
+              <p className="info">
+                {work.title}
+                <span>&bull;</span> <em className="date">{work.years}</em>
+              </p>
+            </div>
             <p>{work.description}</p>
+            {work.title2 && work.description2 && work.years2 ? (
+              <div>
+                <p className="info">
+                  {work.title2}
+                  <span>&bull;</span> <em className="date">{work.years2}</em>
+                </p>
+                <p>{work.description2}</p>
+              </div>
+            ) : null}
           </div>
         );
       });
