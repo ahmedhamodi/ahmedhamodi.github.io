@@ -4,7 +4,7 @@ const Projects = [
     category:
       "Created an application for SVP and United Way to judge non-profit organizations, helping distribute over $2 million in funding over 7 grand application rounds and 208 organization applications.",
     image: require("../Images/portfolio/thumbs/arbitrium.png"),
-    url: "https://github.com/uwblueprint/cookie-monster",
+    url: "https://github.com/uwblueprint/arbitrium",
   },
   {
     title: "MAX Aspire",
