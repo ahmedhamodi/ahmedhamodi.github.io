@@ -52,7 +52,7 @@ class Header extends Component {
                 backgroundColor: "black",
                 paddingTop: "40px",
                 paddingBottom: "10px",
-                borderRadius: "100px",
+                borderRadius: "10vw",
               }}
             >
               <h1 className="responsive-headline">{name}</h1>
