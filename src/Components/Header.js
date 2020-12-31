@@ -47,27 +47,36 @@ class Header extends Component {
 
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline">{name}</h1>
-            <h3>{description}</h3>
-            <hr />
-            <ul className="social">
-              <a
-                href={linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="button btn project-btn"
-              >
-                <i className="fa fa-linkedin"></i>LinkedIn
-              </a>
-              <a
-                href={github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="button btn github-btn"
-              >
-                <i className="fa fa-github"></i>Github
-              </a>
-            </ul>
+            <div
+              style={{
+                backgroundColor: "black",
+                paddingTop: "40px",
+                paddingBottom: "10px",
+                borderRadius: "10vw",
+              }}
+            >
+              <h1 className="responsive-headline">{name}</h1>
+              <h3>{description}</h3>
+              <hr />
+              <ul className="social">
+                <a
+                  href={linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button btn project-btn"
+                >
+                  <i className="fa fa-linkedin"></i>LinkedIn
+                </a>
+                <a
+                  href={github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button btn github-btn"
+                >
+                  <i className="fa fa-github"></i>Github
+                </a>
+              </ul>
+            </div>
           </div>
         </div>
 
