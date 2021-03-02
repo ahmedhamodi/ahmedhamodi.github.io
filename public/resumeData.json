@@ -3,7 +3,7 @@
     "name":"Ahmed Hamodi",
     "description":"I am a Software Engineering student at the University of Waterloo, and I work as a software engineering intern at a variety of companies. My main tech stack revolves around React and Python!",
     "image":"profilepic.png",
-    "bio":"I am a young aspiring Software Engineer, with experience in full-stack development, machine learning, scripting, and automation. I am motivated by my passion for learning new technologies and perfecting my craft. I will never shy away from a challenge and I will always approach tasks with a positive attitude and a willingness to colloborate, explain, and take criticism to continue to improve.",
+    "bio":"I am a young aspiring Software Engineer, with experience in full-stack development, machine learning, scripting, and automation. I am motivated by my passion for learning new technologies and perfecting my craft. I will never shy away from a challenge and I will always approach tasks with a positive attitude and a willingness to collaborate, explain, and take criticism to continue to improve.",
     "contactmessage":"To get in contact with me, reach out on LinkedIn or via email!",
     "email": "ahmed.r.hamodi@gmail.com",
     "github":"https://github.com/ahmedhamodi",
@@ -52,7 +52,7 @@
     "work":[
       {
         "company":"Facebook",
-        "title":"Incoming Software Engineering Intern",
+        "title":"Software Engineering Intern",
         "years":"JAN 2021 - APR 2021",
         "description":"Working on the Stores team, developing with React and PHP (Hack)."
       },
