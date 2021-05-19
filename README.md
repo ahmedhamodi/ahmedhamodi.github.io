@@ -14,4 +14,4 @@ Other important information sources include my GitHub account (https://github.co
 
 My website can also be found at https://ahmedhamodi.com.
 
-Any inquiries, please email me at ahmed.r.hamodi@gmail.com!
+Any inquiries, please reach out to me on LinkedIn!
