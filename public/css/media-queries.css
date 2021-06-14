@@ -228,8 +228,12 @@
   /* About Section
    -------------------------------------------------------------------- */
   #about .profile-pic {
-    display: none;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 80px;
   }
+
   #about .download .button {
     width: 100%;
     text-align: center;
