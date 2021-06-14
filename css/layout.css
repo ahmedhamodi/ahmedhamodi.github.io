@@ -228,7 +228,7 @@ ul#nav li.current a {
 #about .profile-pic {
   position: relative;
   width: 200px;
-  height: 200px;
+  object-fit: cover;
   border-radius: 100%;
 }
 #about .contact-details {
