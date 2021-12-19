@@ -22,7 +22,15 @@ class Portfolio extends Component {
                     title={projects.title}
                   >
                     <div className="item-wrap">
-                      <img alt={projects.title} src={projects.image} />
+                      <img
+                        alt={projects.title}
+                        src={projects.image}
+                        style={{
+                          objectFit: "cover",
+                          width: "100%",
+                          height: "175px",
+                        }}
+                      />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{projects.title}</h5>
