@@ -10,8 +10,8 @@ This site is built using React. It is designed to be fully responsive on all dev
 
 ## Other Info
 
-Other important information sources include my GitHub account (https://github.com/ahmedhamodi), my LinkedIn account (https://www.linkedin.com/in/ahmedhamodi), and my Devpost account (https://devpost.com/ahmedhamodi).
+Other important information sources include my [GitHub account](https://github.com/ahmedhamodi), my [LinkedIn account](https://www.linkedin.com/in/ahmedhamodi), and my [Devpost account](https://devpost.com/ahmedhamodi).
 
-My website can also be found at https://ahmedhamodi.com.
+My website can also be found at [https://ahmedhamodi.com](https://ahmedhamodi.com).
 
 Any inquiries, please reach out to me on LinkedIn!
