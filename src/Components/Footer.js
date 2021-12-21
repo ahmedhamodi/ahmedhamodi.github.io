@@ -28,11 +28,18 @@ class Footer extends Component {
                 fontVariant: "small-caps",
               }}
             >
-              Need a Developer?
+              Looking to Hire?
             </span>
-            <h5 style={{ color: "#d3d3d3", fontWeight: "0px" }}>
-              Looking for a co-op student for the Fall 2021 term? Please reach
-              out!
+            <h5
+              style={{
+                color: "#d3d3d3",
+                fontWeight: "0px",
+                width: 500,
+                margin: "auto",
+              }}
+            >
+              Looking for a contractor or freelance developer? Looking to hire a
+              SWE or PM for a full time position? Please reach out below!
             </h5>
             <hr
               style={{
@@ -44,7 +51,7 @@ class Footer extends Component {
                 marginBottom: "50px",
                 background: "#11ABB0",
               }}
-            ></hr>
+            />
             <ul className="social-links">{networks}</ul>
             <ul className="copyright">
               <li style={{ color: "white" }}>
