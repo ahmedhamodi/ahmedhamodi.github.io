@@ -48,22 +48,6 @@ const Projects = [
     className: "fa fa-github",
   },
   {
-    title: "Personal Website",
-    category:
-      "Created a personal portfolio website using React to display a variety of my accomplishments visually.",
-    image: require("../Images/portfolio/thumbs/coding.jpg"),
-    url: "https://github.com/ahmedhamodi/ahmedhamodi.github.io",
-    className: "fa fa-github",
-  },
-  {
-    title: "Electric Car Club",
-    category:
-      "Communicated complex technical concepts and terminology regarding the designing, constructing, and testing of the electric vehicles to peers, specifically the innovative steering design and the chassis of various cars.",
-    image: require("../Images/portfolio/thumbs/ecar.jpg"),
-    url: "https://uwaterloo.ca/electric-vehicle-challenge/",
-    className: "fa fa-link",
-  },
-  {
     title: "Stock Analysis Tool",
     category:
       "Created a Python tool that compares various stocks and calculates the minimum variance portfolio, performs risk analysis, and provides analysis based on various stock portfolio splits. Used matplotlib to plot the efficient frontier data and used pandas to pull live data from Yahoo Finances.",
