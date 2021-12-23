@@ -17,7 +17,7 @@ const Projects = [
     title: "Plastics for Change",
     category:
       "Completed a 12-month project which helps the organization Plastics for Change manage the plastic ecosystem in third world countries, from the wastepickers to the resin producers to the manufacturers.",
-    image: require("../Images/portfolio/thumbs/uwblueprint.png"),
+    image: require("../Images/portfolio/thumbs/pfc.png"),
     url: "https://github.com/uwblueprint/plasta",
   },
 ];
