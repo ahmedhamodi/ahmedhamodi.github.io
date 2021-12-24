@@ -6,8 +6,11 @@ class Header extends Component {
     if (this.props.data) {
       var linkedin = this.props.data.linkedin;
       var github = this.props.data.github;
-      var name = this.props.data.name;
+      var firstName = this.props.data.firstname;
+      var lastName = this.props.data.lastname;
       var description = this.props.data.description;
+      var currentRoles = this.props.data.currentroles;
+      var previousRoles = this.props.data.prevroles;
     }
 
     return (
@@ -47,16 +50,28 @@ class Header extends Component {
 
         <div className="row banner">
           <div className="banner-text">
-            <div
-              style={{
-                backgroundColor: "black",
-                paddingTop: "40px",
-                paddingBottom: "10px",
-                borderRadius: "10vw",
-              }}
-            >
-              <h1 className="responsive-headline">{name}</h1>
-              <h3>{description}</h3>
+            <div>
+              <h1 className="responsive-headline">
+                <span>
+                  <span style={{ color: "lightgray" }}>{firstName}</span>{" "}
+                  <span style={{ color: "#11abb0" }}>{lastName}</span>
+                </span>
+              </h1>
+              <h3>
+                <span style={{ backgroundColor: "black", padding: 5 }}>
+                  <span style={{ padding: 5 }}>
+                    <em>{description}</em>
+                  </span>
+                  <br />
+                  <span style={{ padding: 5 }}>
+                    <em>Currently: {currentRoles}</em>
+                  </span>
+                  <br />
+                  <span style={{ padding: 5 }}>
+                    <em>Previously: {previousRoles}</em>
+                  </span>
+                </span>
+              </h3>
               <hr />
               <ul className="social">
                 <a
