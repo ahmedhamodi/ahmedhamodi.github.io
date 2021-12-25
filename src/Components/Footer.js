@@ -34,7 +34,7 @@ class Footer extends Component {
               style={{
                 color: "#d3d3d3",
                 fontWeight: "0px",
-                width: 500,
+                maxWidth: 500,
                 margin: "auto",
               }}
             >
