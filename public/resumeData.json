@@ -58,7 +58,7 @@
         "title":"Associate Product Manager Intern",
         "title2":"Associate Product Manager Intern (Part Time)",
         "years":"SEP 2021 - DEC 2021",
-        "years2":"DEC 2021 - APR 2022",
+        "years2":"DEC 2021 - Present",
         "description":"Defining product vision for Wish's shipping label generation service and returns program.",
         "description2":"Defining Merchant-side experience with Tax Compliance in Indonesia, Columbia, and Chile."
       },
@@ -100,6 +100,20 @@
         "title":"Operations Engineering Intern",
         "years":"JUN 2017 - SEP 2017",
         "description":"Worked on the test automation team, working with Python and Bash."
+      }
+    ],
+    "leadership":[
+      {
+        "company":"UW Blueprint",
+        "title":"President",
+        "years":"SEP 2021 - Present",
+        "description":"Led a 110-person student club that builds technology for social good. Responsibilities include setting the direction of the club, upholding club values and mission, managing day-to-day operations of the executive team, among others."
+      },
+      {
+        "company":"Calgary Distress Center",
+        "title":"Project Lead",
+        "years":"SEP 2020 - Present",
+        "description":"Led the design and development of a 3D interactive experience using Aframe, React, and Tornado. Responsibilities include managing the task board in Notion, running weekly standup & work sessions, and having 1:1s with developers and designers."
       }
     ]
   }

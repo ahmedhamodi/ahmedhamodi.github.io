@@ -301,7 +301,7 @@ ul#nav li.current a {
   border-bottom: 1px solid #e8e8e8;
 }
 #resume .info {
-  font: 16px/24px "librebaskerville-italic", serif;
+  font: 18px/26px "librebaskerville", serif;
   color: #6e7881;
   margin-bottom: 18px;
   margin-top: 9px;
@@ -311,7 +311,7 @@ ul#nav li.current a {
   margin-left: 5px;
 }
 #resume .date {
-  font: 15px/24px "opensans-regular", sans-serif;
+  font: 16px/24px "opensans-italic", sans-serif;
   margin-top: 6px;
 }
 
