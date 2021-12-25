@@ -48,6 +48,32 @@ class Resume extends Component {
           </div>
         );
       });
+      var leadership = this.props.data.leadership.map(function (leadership) {
+        return (
+          <div key={leadership.company}>
+            <h3>{leadership.company}</h3>
+            <div>
+              <p className="info">
+                {leadership.title}
+                <span>&bull;</span> <em className="date">{leadership.years}</em>
+              </p>
+            </div>
+            <p>{leadership.description}</p>
+            {leadership.title2 &&
+            leadership.description2 &&
+            leadership.years2 ? (
+              <div>
+                <p className="info">
+                  {leadership.title2}
+                  <span>&bull;</span>{" "}
+                  <em className="date">{leadership.years2}</em>
+                </p>
+                <p>{leadership.description2}</p>
+              </div>
+            ) : null}
+          </div>
+        );
+      });
     }
 
     return (
@@ -93,6 +119,16 @@ class Resume extends Component {
               </tbody>
             </table>
           </div>
+        </div>
+
+        <div className="row work">
+          <div className="three columns header-col">
+            <h1>
+              <span>Leadership</span>
+            </h1>
+          </div>
+
+          <div className="nine columns main-col">{leadership}</div>
         </div>
 
         <div className="row work">
