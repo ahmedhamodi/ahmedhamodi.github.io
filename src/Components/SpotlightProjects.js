@@ -2,7 +2,7 @@ const Projects = [
   {
     title: "Arbitrium",
     category:
-      "Created an application for SVP and United Way to judge non-profit organizations, helping distribute over $2 million in funding over 7 grand application rounds and 208 organization applications.",
+      "Created an application for granting agencies to review NPO applications, helping distribute over $5 million in funding over 80 grant application rounds and 902 NPO applications.",
     image: require("../Images/portfolio/thumbs/arbitrium.png"),
     url: "https://github.com/uwblueprint/arbitrium",
   },
