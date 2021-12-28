@@ -1,10 +1,18 @@
 const Projects = [
   {
-    title: "Meetability",
+    title: "Calgary Distress Center",
     category:
-      "Integrated Google Maps API, Firebase, and a React (with Redux store) frontend to create the web application. Created sign up and login work flows for families and individuals with disabilities to meet. Created an internal messaging platform within the app, allowing users to send real time messages to each other.",
-    image: require("../Images/portfolio/thumbs/meetability.png"),
-    url: "https://github.com/ahmedhamodi/meetability",
+      "Led the development of a 3D interactive tool used by the Calgary Distress Center to teach mental health concepts to high school students. Using React, Aframe, and Tornado to build out the application.",
+    image: require("../Images/portfolio/thumbs/distresscenter.png"),
+    url: "https://github.com/uwblueprint/cdc-frontend",
+    className: "fa fa-github",
+  },
+  {
+    title: "UW Blueprint Website",
+    category:
+      "Core contributor to the UW Blueprint website, updating it term-to-term and adding feature improvements. Website is used by thousands of people per year, from NPOs to students looking to apply to join the UW Blueprint program.",
+    image: require("../Images/portfolio/thumbs/uwblueprint.png"),
+    url: "https://github.com/uwblueprint/website",
     className: "fa fa-github",
   },
   {
@@ -13,6 +21,22 @@ const Projects = [
       "Developed an Android application that provides activities and quotes, through a paginated scroll view, which are tailored to help encourage mental well-being, placing 2nd place at DeltaHacks. Implemented features such as an infinite image/text scroll, an external call link to the suicide helpline number, and API requests.",
     image: require("../Images/portfolio/thumbs/smile4real.png"),
     url: "https://github.com/ahmedhamodi/smile4real",
+    className: "fa fa-github",
+  },
+  {
+    title: "Stock Analysis Tool",
+    category:
+      "Created a Python tool that compares various stocks and calculates the minimum variance portfolio, performs risk analysis, and provides analysis based on various stock portfolio splits. Used matplotlib to plot the efficient frontier data and used pandas to pull live data from Yahoo Finances.",
+    image: require("../Images/portfolio/thumbs/stockanalysis.png"),
+    url: "https://github.com/ahmedhamodi/stock_analysis",
+    className: "fa fa-github",
+  },
+  {
+    title: "Meetability",
+    category:
+      "Integrated Google Maps API, Firebase, and a React (with Redux store) frontend to create the web application. Created sign up and login work flows for families and individuals with disabilities to meet. Created an internal messaging platform within the app, allowing users to send real time messages to each other.",
+    image: require("../Images/portfolio/thumbs/meetability.png"),
+    url: "https://github.com/ahmedhamodi/meetability",
     className: "fa fa-github",
   },
   {
@@ -45,14 +69,6 @@ const Projects = [
       "Programmed a Python application that allows multiple users to simultaneously program on a single script, winning third place at JAMHacks.",
     image: require("../Images/portfolio/thumbs/jamhacks-team.jpg"),
     url: "https://github.com/ahmedhamodi/synk_programming",
-    className: "fa fa-github",
-  },
-  {
-    title: "Stock Analysis Tool",
-    category:
-      "Created a Python tool that compares various stocks and calculates the minimum variance portfolio, performs risk analysis, and provides analysis based on various stock portfolio splits. Used matplotlib to plot the efficient frontier data and used pandas to pull live data from Yahoo Finances.",
-    image: require("../Images/portfolio/thumbs/stockanalysis.png"),
-    url: "https://github.com/ahmedhamodi/stock_analysis",
     className: "fa fa-github",
   },
 ];
