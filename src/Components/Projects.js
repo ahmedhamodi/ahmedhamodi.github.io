@@ -4,16 +4,16 @@ const Projects = [
     category:
       "Led the development of a 3D interactive tool used by the Calgary Distress Center to teach mental health concepts to high school students. Using React, Aframe, and Tornado to build out the application.",
     image: require("../Images/portfolio/thumbs/distresscenter.png"),
-    url: "https://github.com/uwblueprint/cdc-frontend",
-    className: "fa fa-github",
+    url: "https://interactive.calgaryconnecteen.com/",
+    className: "fa fa-link",
   },
   {
     title: "UW Blueprint Website",
     category:
       "Core contributor to the UW Blueprint website, updating it term-to-term and adding feature improvements. Website is used by thousands of people per year, from NPOs to students looking to apply to join the UW Blueprint program.",
     image: require("../Images/portfolio/thumbs/uwblueprint.png"),
-    url: "https://github.com/uwblueprint/website",
-    className: "fa fa-github",
+    url: "https://uwblueprint.org/",
+    className: "fa fa-link",
   },
   {
     title: "Smile4Real",
