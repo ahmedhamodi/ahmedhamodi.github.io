@@ -56,17 +56,20 @@
       {
         "company":"Wish",
         "title":"Associate Product Manager Intern",
-        "title2":"Associate Product Manager Intern (Part Time)",
+        "title2":"Associate Product Manager Intern",
         "years":"SEP 2021 - DEC 2021",
         "years2":"DEC 2021 - Present",
         "description":"Defining product vision for Wish's shipping label generation service and returns program.",
-        "description2":"Defining Merchant-side experience with Tax Compliance in Indonesia, Columbia, and Chile."
+        "description2":"Defining Merchant-side experience with Tax Compliance in Indonesia, Columbia, and Chile.",
+        "parttime":false,
+        "parttime2":true
       },
       {
         "company":"Facebook",
         "title":"Software Engineering Intern",
         "years":"JAN 2021 - APR 2021",
-        "description":"Working on the Stores team, developing with React and PHP (Hack)."
+        "description":"Working on the Stores team, developing with React and PHP (Hack).",
+        "parttime":false
       },
       {
         "company":"Tealbook",
@@ -75,31 +78,37 @@
         "years":"MAY 2020 - AUG 2020",
         "years2":"NOV 2020 - DEC 2020",
         "description":"Worked on the application development team, working with React and Node.js.",
-        "description2":"Created a security assessment dataset saving hours of human time."
+        "description2":"Created a security assessment dataset saving hours of human time.",
+        "parttime":false,
+        "parttime2":true
       },
       {
         "company":"JSI Telecom",
         "title":"Software Engineering Intern",
         "years":"SEP 2019 - DEC 2019",
-        "description":"Worked on the data loaders team, working with C# and .NET Core."
+        "description":"Worked on the data loaders team, working with C# and .NET Core.",
+        "parttime":false
       },
       {
         "company":"Condos.ca",
         "title":"Full Stack Engineering Intern",
         "years":"JAN 2019 - APR 2019",
-        "description":"Worked on the backend development team, working with PHP (Laravel framework)."
+        "description":"Worked on the backend development team, working with PHP (Laravel framework).",
+        "parttime":false
       },
       {
         "company":"OpenText",
         "title":"Software Engineering Intern",
         "years":"MAY 2018 - AUG 2018",
-        "description":"Worked on the Exstream application development team, working with Python, TensorFlow, and Keras."
+        "description":"Worked on the Exstream application development team, working with Python, TensorFlow, and Keras.",
+        "parttime":false
       },
       {
         "company":"FLIR Systems",
         "title":"Operations Engineering Intern",
         "years":"JUN 2017 - SEP 2017",
-        "description":"Worked on the test automation team, working with Python and Bash."
+        "description":"Worked on the test automation team, working with Python and Bash.",
+        "parttime":false
       }
     ],
     "leadership":[

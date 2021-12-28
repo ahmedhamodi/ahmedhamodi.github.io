@@ -32,6 +32,12 @@ class Resume extends Component {
             <div>
               <p className="info">
                 {work.title}
+                {work.parttime ? (
+                  <>
+                    <span>&bull;</span>
+                    Part Time
+                  </>
+                ) : null}
                 <span>&bull;</span> <em className="date">{work.years}</em>
               </p>
             </div>
@@ -40,6 +46,12 @@ class Resume extends Component {
               <div>
                 <p className="info">
                   {work.title2}
+                  {work.parttime2 ? (
+                    <>
+                      <span>&bull;</span>
+                      Part Time
+                    </>
+                  ) : null}
                   <span>&bull;</span> <em className="date">{work.years2}</em>
                 </p>
                 <p>{work.description2}</p>
