@@ -125,7 +125,16 @@ class Resume extends Component {
                   </th>
                   <td colSpan="3">
                     Git, Firebase, Docker, Heroku, Jenkins, Arduino, Google
-                    Analytics, JIRA
+                    Analytics
+                  </td>
+                </tr>
+                <tr>
+                  <th style={{ textAlign: "left", minWidth: "120px" }}>
+                    <b>Product</b>
+                  </th>
+                  <td colSpan="3">
+                    Asana, Product Requirements, Roadmapping, User Research,
+                    JIRA, Figma
                   </td>
                 </tr>
               </tbody>
