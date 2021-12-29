@@ -59,8 +59,8 @@
         "title2":"Associate Product Manager Intern",
         "years":"SEP 2021 - DEC 2021",
         "years2":"DEC 2021 - Present",
-        "description":"Defining product vision for Wish's shipping label generation service and returns program.",
-        "description2":"Defining Merchant-side experience with Tax Compliance in Indonesia, Columbia, and Chile.",
+        "description":"Defining product vision for Wish's shipping label generation service and returns program. Led the launch of the shipping label generation service in the Merchant Dashboard and helped with the processing of special characters that may be found in labels generated around the world.",
+        "description2":"Defining Merchant-side experience with Tax Compliance in Indonesia, Columbia, and Chile. Working on improving the Merchant's experience with Wish's return program.",
         "parttime":false,
         "parttime2":true
       },
@@ -68,7 +68,7 @@
         "company":"Facebook",
         "title":"Software Engineering Intern",
         "years":"JAN 2021 - APR 2021",
-        "description":"Working on the Stores team, developing with React and PHP (Hack).",
+        "description":"Created scripts to query large scale data and automatically send emails to over 1000 customers a week. Created an organizational tool for performing bulk operations on Oculus and Portal orders. Lastly, implemented the first SHOP universe search bar in React to be used in bulk processing tool.",
         "parttime":false
       },
       {
@@ -77,8 +77,8 @@
         "title2":"Technical Sales Support Specialist",
         "years":"MAY 2020 - AUG 2020",
         "years2":"NOV 2020 - DEC 2020",
-        "description":"Worked on the application development team, working with React and Node.js.",
-        "description2":"Created a security assessment dataset saving hours of human time.",
+        "description":"Implemented achievement based system using React and Node.js which highlights key metrics of a user (including profile views, searches performed, RFIs created, etc) to encourage user engagement and drive activity. Improved registration flow logic to reduce sign-up time by 90% and customer support time by 50%.",
+        "description2":"Assisting the sales agents through the creation of a security assessment dataset, saving ~10 hours of human time per week.",
         "parttime":false,
         "parttime2":true
       },
@@ -86,28 +86,21 @@
         "company":"JSI Telecom",
         "title":"Software Engineering Intern",
         "years":"SEP 2019 - DEC 2019",
-        "description":"Worked on the data loaders team, working with C# and .NET Core.",
+        "description":"Designed an architectural proposal analyzing the structure and mapping of a new database format. Developed a database parser to extract models and relationships from SQLite using ETL principles. Lastly, created a nuget package that standardizes error and exception handling across parsers in C#.",
         "parttime":false
       },
       {
         "company":"Condos.ca",
         "title":"Full Stack Engineering Intern",
         "years":"JAN 2019 - APR 2019",
-        "description":"Worked on the backend development team, working with PHP (Laravel framework).",
+        "description":"Saved 2.5 hours of daily computation time through tracking run seeders and migrations in MySQL. Reduced page load time by 80% through implementing analytic caching on key metrics and pages. Lastly, integrated Google Adwords for generation of customizable & large-scale ad campaigns in PHP.",
         "parttime":false
       },
       {
         "company":"OpenText",
         "title":"Software Engineering Intern",
         "years":"MAY 2018 - AUG 2018",
-        "description":"Worked on the Exstream application development team, working with Python, TensorFlow, and Keras.",
-        "parttime":false
-      },
-      {
-        "company":"FLIR Systems",
-        "title":"Operations Engineering Intern",
-        "years":"JUN 2017 - SEP 2017",
-        "description":"Worked on the test automation team, working with Python and Bash.",
+        "description":"Developed and trained a predictive neural network with TensorFlow that determines program failures based on file differences in exported data, operating at 95% accuracy and 90% recall.",
         "parttime":false
       }
     ],
