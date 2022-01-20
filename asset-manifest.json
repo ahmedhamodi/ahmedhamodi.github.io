@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.5facb584.chunk.css",
-    "main.js": "/static/js/main.2640f58e.chunk.js",
-    "main.js.map": "/static/js/main.2640f58e.chunk.js.map",
+    "main.js": "/static/js/main.0a8edb37.chunk.js",
+    "main.js.map": "/static/js/main.0a8edb37.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5116ad25.js",
     "runtime-main.js.map": "/static/js/runtime-main.5116ad25.js.map",
-    "static/js/2.347235aa.chunk.js": "/static/js/2.347235aa.chunk.js",
-    "static/js/2.347235aa.chunk.js.map": "/static/js/2.347235aa.chunk.js.map",
+    "static/js/2.4d0ec00f.chunk.js": "/static/js/2.4d0ec00f.chunk.js",
+    "static/js/2.4d0ec00f.chunk.js.map": "/static/js/2.4d0ec00f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.960b224015eb66983926a3d80a5de5ec.js": "/precache-manifest.960b224015eb66983926a3d80a5de5ec.js",
+    "precache-manifest.35a3cd78bc2d3f66e53ca4f29642d277.js": "/precache-manifest.35a3cd78bc2d3f66e53ca4f29642d277.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.5facb584.chunk.css.map": "/static/css/main.5facb584.chunk.css.map",
-    "static/js/2.347235aa.chunk.js.LICENSE.txt": "/static/js/2.347235aa.chunk.js.LICENSE.txt",
+    "static/js/2.4d0ec00f.chunk.js.LICENSE.txt": "/static/js/2.4d0ec00f.chunk.js.LICENSE.txt",
     "static/media/arbitrium.png": "/static/media/arbitrium.8ca45a6b.png",
     "static/media/defensematrix.jpg": "/static/media/defensematrix.5e0b9a7a.jpg",
     "static/media/distresscenter.png": "/static/media/distresscenter.e2fe20c5.png",
     "static/media/jamhacks-team.jpg": "/static/media/jamhacks-team.9ba85dea.jpg",
     "static/media/maxaspire.png": "/static/media/maxaspire.0ab13f35.png",
     "static/media/meetability.png": "/static/media/meetability.bba730f1.png",
+    "static/media/monotone.png": "/static/media/monotone.3a66147f.png",
     "static/media/mood-box.png": "/static/media/mood-box.3c20619b.png",
     "static/media/pfc.png": "/static/media/pfc.c9536366.png",
     "static/media/smile4real.png": "/static/media/smile4real.c57b7261.png",
@@ -25,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5116ad25.js",
-    "static/js/2.347235aa.chunk.js",
+    "static/js/2.4d0ec00f.chunk.js",
     "static/css/main.5facb584.chunk.css",
-    "static/js/main.2640f58e.chunk.js"
+    "static/js/main.0a8edb37.chunk.js"
   ]
 }
