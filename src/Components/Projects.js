@@ -1,5 +1,13 @@
 const Projects = [
   {
+    title: "Monotone",
+    category:
+      "A web application performing speech-to-text sentiment analysis to help individuals with inability to recognize social queues to perform better at interviews, developed at HackMIT 2021.",
+    image: require("../Images/portfolio/thumbs/monotone.png"),
+    url: "https://www.youtube.com/watch?v=xUisJJ9M9Hs",
+    className: "fa fa-youtube-play",
+  },
+  {
     title: "Calgary Distress Center",
     category:
       "Led the development of a 3D interactive tool used by the Calgary Distress Center to teach mental health concepts to high school students. Using React, Aframe, and Tornado to build out the application.",
