@@ -54,6 +54,13 @@
     ],
     "work":[
       {
+        "company":"Meta",
+        "title":"Incoming Software Engineer",
+        "years":"SEP 2022 - Present",
+        "description":"",
+        "parttime":false
+      },
+      {
         "company":"Wish",
         "title":"Associate Product Manager Intern",
         "title2":"Associate Product Manager Intern",
