@@ -104,37 +104,20 @@ class Resume extends Component {
               <tbody>
                 <tr>
                   <th style={{ textAlign: "left", minWidth: "120px" }}>
-                    <b>Languages</b>
+                    <b>Technical</b>
                   </th>
                   <td colSpan="3">
-                    Python, Javascript, PHP, C++, C#, C, Java, PostgreSQL,
-                    MySQL, Bash
+                    Python, Javascript (React, Node), PHP (Hack), C++, C#, C,
+                    Java, Deployment, Git
                   </td>
                 </tr>
                 <tr>
                   <th style={{ textAlign: "left", minWidth: "120px" }}>
-                    <b>Frameworks</b>
+                    <b>Non-Technical</b>
                   </th>
                   <td colSpan="3">
-                    React, Node.js, AWS, Laravel, .NET Core, TensorFlow, Keras
-                  </td>
-                </tr>
-                <tr>
-                  <th style={{ textAlign: "left", minWidth: "120px" }}>
-                    <b>Utilities</b>
-                  </th>
-                  <td colSpan="3">
-                    Git, Firebase, Docker, Heroku, Jenkins, Arduino, Google
-                    Analytics
-                  </td>
-                </tr>
-                <tr>
-                  <th style={{ textAlign: "left", minWidth: "120px" }}>
-                    <b>Product</b>
-                  </th>
-                  <td colSpan="3">
-                    Asana, Product Requirements, Roadmapping, User Research,
-                    JIRA, Figma
+                    Asana, JIRA, PRDs & BRDs, MS Product Suite, Execution,
+                    Leadership, Delegation
                   </td>
                 </tr>
               </tbody>

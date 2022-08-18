@@ -3,8 +3,8 @@
     "firstname":"Ahmed",
     "lastname": "Hamodi",
     "description":"Trying to change the world, one step at a time. Find out more below.",
-    "currentroles": "Product @ Wish, President @ UW Blueprint",
-    "prevroles": "Software Engineer @ Facebook (Meta)",
+    "currentroles": "Co-Founder of DecisionHub",
+    "prevroles": "President of UW Blueprint, Product Manager at Wish",
     "image":"profilepic.png",
     "bio":"I am a young aspiring Software Engineer, with experience in full-stack development, machine learning, scripting, and automation. I am motivated by my passion for learning new technologies and perfecting my craft. I will never shy away from a challenge and I will always approach tasks with a positive attitude and a willingness to collaborate, explain, and take criticism to continue to improve.",
     "contactmessage":"To get in contact with me, reach out on LinkedIn or via email!",
@@ -37,7 +37,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Below is a quick summary of my technology skills, split into subcategories.",
+    "skillmessage":"Below is a quick summary of my relevant skills.",
     "education":[
       {
         "school":"University of Waterloo",
