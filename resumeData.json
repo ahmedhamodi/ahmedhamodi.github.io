@@ -43,7 +43,7 @@
         "school":"University of Waterloo",
         "degree":"Bachelor of Software Engineering",
         "graduated":"SEP 2017 - APR 2022",
-        "description":"Elected as Academic Class Rep every term. Cumulative GPA of 86%. Play in intramural sports including soccer, basketball & volleyball."
+        "description":"Elected as Academic Class Rep every term. Cumulative GPA of 86%. Played intramural sports including soccer, basketball & volleyball."
       },
       {
         "school":"Bluevale Collegiate Institute",
@@ -54,11 +54,18 @@
     ],
     "work":[
       {
+        "company":"Meta",
+        "title":"Incoming Software Engineer",
+        "years":"SEP 2022 - Present",
+        "description":"",
+        "parttime":false
+      },
+      {
         "company":"Wish",
         "title":"Associate Product Manager Intern",
         "title2":"Associate Product Manager Intern",
         "years":"SEP 2021 - DEC 2021",
-        "years2":"DEC 2021 - Present",
+        "years2":"DEC 2021 - APR 2022",
         "description":"Defining product vision for Wish's shipping label generation service and returns program. Led the launch of the shipping label generation service in the Merchant Dashboard and helped with the processing of special characters that may be found in labels generated around the world.",
         "description2":"Defining Merchant-side experience with Tax Compliance in Indonesia, Columbia, and Chile. Working on improving the Merchant's experience with Wish's return program.",
         "parttime":false,
@@ -106,15 +113,22 @@
     ],
     "leadership":[
       {
+        "company":"DecisionHub",
+        "title":"Co-Founder",
+        "years":"JAN 2021 - Present",
+        "description":"Co-Founded a technology startup focused on efficient and bias-free process management for application collection. Currently focused on the grant and community investment sector.",
+        "parttime":false
+      },
+      {
         "company":"UW Blueprint",
         "title":"President",
-        "years":"SEP 2021 - Present",
+        "years":"SEP 2021 - APR 2022",
         "description":"Led a 110-person student club that builds technology for social good. Responsibilities include setting the direction of the club, upholding club values and mission, managing day-to-day operations of the executive team, among others."
       },
       {
         "company":"Calgary Distress Center",
         "title":"Project Lead",
-        "years":"SEP 2020 - Present",
+        "years":"SEP 2020 - APR 2022",
         "description":"Led the design and development of a 3D interactive experience using Aframe, React, and Tornado. Responsibilities include managing the task board in Notion, running weekly standup & work sessions, and having 1:1s with developers and designers."
       }
     ]
